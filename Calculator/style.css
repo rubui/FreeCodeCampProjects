@@ -1,13 +1,17 @@
 .calc{
     background-color: #0469b1;
-    width:50%;
+    width:500px;
     margin: auto;
+    padding: 25px 50px 25px 50px;
+    border-radius: 5px;
 }
 
 .calc-display{
 	background-color: #A2A499;
-	width: 90%;
-	margin: 1rem;
+	width: 100%;
+	padding: 10px;
+	margin: auto;
+	text-align:right;
 
 }
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Simple Calculator</title>
+<title>TI-108 Simple Calculator</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta charset="UTF-8">
@@ -13,35 +13,48 @@
 
 </head>
 <body>
-	<!-- Modeled after the Texas Instruments TI-108 Simple Calculator -->
+
+	<!-- A Modeled after the Texas Instruments TI-108 Simple Calculator 
+		 Author: Rebecca Bui
+		 A fun refresher in pure Javascript
+	-->
 	<div class="calc">
-		<div class="calc-display">
-			Place Holder
+		<div class="calc-top">
+			<div></div>
+			<div class="calc-display">
+				Place Holder
+			</div>
+			<div></div>
+			<div> 
+				<span >TEXAS INSTRUMENTS</span>
+				<span style=" float: right;">TI-108</span>
+				<span class= solar></span>
+			</div>
 		</div>
 		<div class="calc-keys">
-			<button class="key"> +/- </button>
-			<button class="key"> sqrt </button>
-			<button class="key"> % </button>
-			<button class="key"> / </button>
-			<button class="key"> MRC </button>
-			<button class="key"> M- </button>
-			<button class="key"> M+ </button>
-			<button class="key"> X </button>
+			<button class="key sign-toggle"> +/- </button>
+			<button class="key arith"> sqrt </button>
+			<button class="key arith"> % </button>
+			<button class="key arith"> / </button>
+			<button class="key mem"> MRC </button>
+			<button class="key mem"> M- </button>
+			<button class="key mem"> M+ </button>
+			<button class="key arith"> X </button>
 			<button class="key num"> 7 </button>
 			<button class="key num"> 8 </button>
 			<button class="key num"> 9 </button>
-			<button class="key"> - </button>
+			<button class="key arith"> - </button>
 			<button class="key num"> 4 </button>
 			<button class="key num"> 5 </button>
 			<button class="key num"> 6 </button>
-			<button class="key"> + </button>
+			<button class="key arith"> + </button>
 			<button class="key num"> 1 </button>
 			<button class="key num"> 2 </button>
 			<button class="key num"> 3</button>
-			<button class="key"> = </button>
-			<button class="key"> ON/C </button>
+			<button class="key equals"> = </button>
+			<button class="key on-clear"> ON/C </button>
 			<button class="key num"> 0 </button>
-			<button class="key"> . </button>
+			<button class="key dec"> . </button>
 
 		</div>
 	</div>
